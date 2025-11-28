@@ -19,11 +19,11 @@ public class LetterCombination {
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
                 if(num1=='2' && num2=='3'){
-                    ar.add(two[i]+three[j]);
+                    ar.add(String.valueOf(two[i]+three[j]));
                 }
 
             }
-        }.
+        }
         return null;
     }
 }

@@ -6,7 +6,7 @@ public class MaxSumSubarrayNaive {
         int k = 3;
 
         int[] maxSubarray = maxSumSubarray(arr, k);
-        System.out.println("Maximum sum subarray of size " + k + " = " + Arrays.toString(maxSubarray));
+        System.out.println("Maximum sum subarray of size :" + k + " = " + Arrays.toString(maxSubarray));
     }
 
     static int[] maxSumSubarray(int[] arr, int k) {

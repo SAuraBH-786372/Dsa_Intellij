@@ -19,7 +19,7 @@ public class TCPServer {
             byte[] filedata=Files.readAllBytes(Paths.get("src/" + filename));
             String filecontent=new String(filedata);
             out.writeUTF(filecontent.toString());
-            System.out.println("File sent successfully!");
+            System.out.println("File sent successfully!!");
 
         }
         catch (Exception e){

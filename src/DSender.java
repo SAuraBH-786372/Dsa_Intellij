@@ -8,7 +8,7 @@ public class DSender
         System.out.println("Sender");
         DatagramSocket ds = new DatagramSocket();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("\nEnter the Message : ");
+        System.out.println("\nEnter the Message=> : ");
         while(true) {
             String msg = scanner.nextLine();
             InetAddress ip = InetAddress.getByName("127.0.0.1");

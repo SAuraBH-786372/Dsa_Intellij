@@ -12,7 +12,7 @@ public class DSender
         while(true) {
             String msg = scanner.nextLine();
             InetAddress ip = InetAddress.getByName("127.0.0.1");
-            System.out.println("DSender.main()" + ip);
+            System.out.println("DSender.main() IP address is" + ip);
             DatagramPacket dp = new DatagramPacket(msg.getBytes(), msg.length(), ip,
                     3000);
 
